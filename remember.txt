@@ -1,0 +1,17 @@
+how to add new fresh project in git..
+
+create repository first
+copy clone url 
+for example this is our url https://github.com/sisodiyaranjeetsingh113/project_django.git
+then
+type it
+
+1.  git clone https://github.com/sisodiyaranjeetsingh113/project_django.git
+
+
+copy project folder in repository name Folder the type it
+2.  git add .
+
+3. git commit -m "done it"
+
+4. git push
