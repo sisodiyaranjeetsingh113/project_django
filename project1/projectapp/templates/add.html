@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form  method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <tr>{{form.launch_date}}</tr><br>
+                <tr>{{form.status}}  
+                <form method="POST">    
+                <input type="submit" value="Add_Status"></tr><br>
+                </form>
+                <tr>{{form.task}}
+                <form action="/add1/" method=""> 
+                    {% csrf_token %}
+                    <input type="submit" value="Add_Task"></tr><br>
+                    </form>
+                </tr><br>
+                
+            </tr>
+
+        </table>
+    <input type="submit" value="Add">
+    </form>
+    
+</body>
+</html>
